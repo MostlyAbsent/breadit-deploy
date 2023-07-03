@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 import { formatDistanceToNowStrict } from 'date-fns'
 import locale from 'date-fns/locale/en-US'
 
-export function cn(...inputs: ClassValue[]) {
+export function classNameMerge(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
